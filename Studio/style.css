@@ -1,19 +1,44 @@
 body {
-background-color: #b49367;
+background-color: #a08050;
+text-align: center;
 
 
 }
 
-#title {
+.title {
 text-align: center;
+display: inline-block;
+padding: 20px;
 border-radius: 30px;
 border-style: dashed;
-border-color: brown;
+border-color: #703a13;
+border-width: 8px;
+
 }
 
 
 
 #THeading {
-font-size: 150px;
-font-family: cursive, serif;
+font-size: 100px;
+font-family: 'Times New Roman', Times, serif
+}
+
+#THeadingS {
+margin-top: -10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
