@@ -1,2 +1,3 @@
 # Junk-Journaling
-Junk Journal adsfasdfa
+Notes:
+Discuss whether
