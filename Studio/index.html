@@ -3,36 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Junk Journaling - With Faye And Zephyr</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="title">
-    <h1 id="THeading">Junk Journaling</h1>
-<h3 id="THeadingS">With Faye And Zephyr</h3>
-</div>
+    <header class="title">
+        <h1 id="THeading">Junk Journaling</h1>
+        <h3 id="THeadingS">With Faye And Zephyr</h3>
+    </header>
 
-    <div class="gallery">
-        
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <main class="gallery">
+        <div class="upload-section">
+            <input type="file" id="imageInput" accept="image/*" multiple>
+            <button id="addImageBtn">Add Images</button>
+        </div>
+        <div class="image-grid" id="imageGrid">
+            <!-- Images will be added here -->
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
