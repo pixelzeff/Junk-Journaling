@@ -19,6 +19,9 @@ document.getElementById('addImageBtn').addEventListener('click', function() {
                 img.title = file.name;
                 imageGrid.appendChild(img);
             };
+            reader.onerror = function() {
+                alert(`Error reading file: ${file.name}`);
+            };
             reader.readAsDataURL(file);
         } else {
             alert(`${file.name} is not a valid image file.`);
